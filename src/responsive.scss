@@ -143,7 +143,7 @@
                 padding-bottom: 150px;
 
                 img {
-                    display: none;          
+                    display: none;
                 }
             }
             .owl-prev {
@@ -192,7 +192,7 @@
         .about-img {
             background-image: unset;
             text-align: center;
-            
+
             img {
                 display: block;
             }
@@ -333,7 +333,7 @@
         }
         .help-item {
             ul {
-                li {   
+                li {
                     flex: 0 0 100%;
                     max-width: 100%;
                     margin-bottom: 30px;
@@ -447,7 +447,7 @@
                 position: relative;
                 bottom: 0;
                 margin-top: 30px;
-            
+
             }
         }
         .search-content {
@@ -522,7 +522,7 @@
                 a {
                     font-size: 17px;
                     padding: 15px 30px 15px 15px;
-            
+
                     &:after {
                         width: 30px;
                         height: 30px;
@@ -545,7 +545,7 @@
     .one-testimonial-area {
         .testimonial-item {
             padding: 30px 15px 30px;
-        
+
             .testimonial-top {
                 ul {
                     &:before {
@@ -561,7 +561,7 @@
         }
     }
     /*-- End Testimonial --*/
-    
+
     /*-- Contact --*/
     .one-contact-area {
         padding-top: 50px;
@@ -721,7 +721,7 @@
     }
     .two-banner-area {
         height: 100%;
-        
+
         .banner-content {
             margin-top: 0;
             padding-top: 100px;
@@ -982,7 +982,7 @@
     .two-lover-area {
         .lover-item {
             text-align: center;
-            
+
             ul {
                 padding: 20px 15px 22px;
 
@@ -1088,7 +1088,7 @@
     /*-- About --*/
     .three-about-area {
         padding-top: 50px;
-        
+
         .about-img {
             img {
                 &:nth-child(2) {
@@ -1179,7 +1179,7 @@
             padding: 45px 15px 30px 20px;
             margin-bottom: 70px;
             margin-left: auto;
-            
+
             &:before {
                 display: none;
             }
@@ -1275,7 +1275,7 @@
                     font-size: 18px;
                     margin-left: 26px;
                     margin-right: 10px;
-                    margin-bottom: 10px; 
+                    margin-bottom: 10px;
 
                     i {
                         font-size: 30px;
@@ -1403,7 +1403,7 @@
 
             .three-section-title {
                 text-align: center;
-        
+
                 h2 {
                     font-size: 25px;
                 }
@@ -1460,7 +1460,7 @@
                 i {
                     top: 40px;
                     left: 7px;
-                
+
                 }
             }
             a {
@@ -1474,10 +1474,6 @@
     .four-quote-area {
         padding-top: 50px;
         padding-bottom: 50px;
-
-        .quote-content {
-            padding: 28px 25px 35px;
-        }
     }
     /*-- End Quote --*/
 
@@ -1861,8 +1857,8 @@
                 }
             }
         }
-        
-        
+
+
     }
     /*-- End Counter --*/
 
@@ -2075,7 +2071,7 @@
                 padding-bottom: 200px;
 
                 img {
-                    display: none;          
+                    display: none;
                 }
             }
             .owl-prev {
@@ -2124,7 +2120,7 @@
         .about-img {
             background-image: unset;
             text-align: center;
-            
+
             img {
                 display: block;
             }
@@ -2267,7 +2263,7 @@
         }
         .help-item {
             ul {
-                li {   
+                li {
                     flex: 0 0 100%;
                     max-width: 100%;
                     margin-bottom: 30px;
@@ -2466,7 +2462,7 @@
                 a {
                     font-size: 17px;
                     padding: 15px 30px 15px 15px;
-            
+
                     &:after {
                         width: 30px;
                         height: 30px;
@@ -2489,7 +2485,7 @@
     .one-testimonial-area {
         .testimonial-item {
             padding: 30px 15px 30px;
-        
+
             .testimonial-top {
                 ul {
                     &:before {
@@ -2647,7 +2643,7 @@
     /*-- Banner --*/
     .two-banner-area {
         height: 100%;
-        
+
         .banner-content {
             margin-top: 0;
             padding-top: 100px;
@@ -2984,7 +2980,7 @@
     /*-- About --*/
     .three-about-area {
         padding-top: 70px;
-        
+
         .about-img {
             img {
                 &:nth-child(1) {
@@ -3077,7 +3073,7 @@
         .process-item {
             padding: 45px 15px 30px 20px;
             margin-bottom: 70px;
-            
+
             &:before {
                 display: none;
             }
@@ -3171,7 +3167,7 @@
                     font-size: 18px;
                     margin-left: 26px;
                     margin-right: 10px;
-                    margin-bottom: 10px; 
+                    margin-bottom: 10px;
 
                     i {
                         font-size: 30px;
@@ -3308,7 +3304,7 @@
 
             .three-section-title {
                 text-align: center;
-        
+
                 h2 {
                     font-size: 30px;
                 }
@@ -3365,7 +3361,7 @@
                 i {
                     top: 40px;
                     left: 7px;
-                
+
                 }
             }
             a {
@@ -3413,6 +3409,10 @@
             padding: 55px 15px 25px 25px;
             border-radius: 4px;
             margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
         }
         .step-one {
             margin-top: 40px;
@@ -3754,7 +3754,7 @@
                     font-size: 16px;
                 }
             }
-        } 
+        }
     }
     /*-- End Counter --*/
 
@@ -3801,7 +3801,7 @@
         }
     }
     /*-- End FAQ --*/
-    
+
     /*-- Subscribe --*/
     .six-subscribe-area {
         margin-top: 0;
@@ -3835,7 +3835,7 @@
 }
 
 @media only screen and (min-width : 992px) and (max-width : 1199px) {
-    
+
     .navbar-light {
         padding-left: 15px;
         padding-right: 15px;

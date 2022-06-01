@@ -6,14 +6,12 @@ import { HomeThreeComponent } from './components/home-three/home-three.component
 import { HomeFourComponent } from './components/home-four/home-four.component';
 import { HomeFiveComponent } from './components/home-five/home-five.component';
 import { HomeSixComponent } from './components/home-six/home-six.component';
+import {PageLockComponent} from './components/page-lock/page-lock.component';
+import {AuthGuard} from './services/auth-guard.service';
 
 const routes: Routes = [
-    {path: '', component: HomeFiveComponent},
-    {path: 'home-two', component: HomeTwoComponent},
-    {path: 'home-three', component: HomeThreeComponent},
-    {path: 'home-four', component: HomeFourComponent},
-    {path: 'home-one', component: HomeOneComponent},
-    {path: 'home-six', component: HomeSixComponent}
+    {path: 'app', component: HomeFiveComponent, canActivate: [AuthGuard]},
+    {path: '', component: PageLockComponent}
 ];
 
 @NgModule({

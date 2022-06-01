@@ -7,7 +7,9 @@ $all-size: 16px;
 $white-color: #ffffff;
 $grey-color: #777777;
 $black-color: #0d1820;
-$gradient-green: linear-gradient(90deg, rgba(16,195,23,1) 23%, rgba(21,208,154,1) 64%);
+//$gradient-green: linear-gradient(90deg, rgba(16,195,23,1) 23%, rgba(21,208,154,1) 64%);
+$gradient-white: linear-gradient(90deg,rgba(241,241,241,1) 23%, rgb(70, 29, 64) 64%);
+$gradient-green: rgba(87, 35, 80, 0.8);
 
 
 /*-- Default CSS --*/
@@ -456,7 +458,7 @@ button {
                 left: 0;
                 top: 0;
                 max-width: 275px;
-                height: 100%;            
+                height: 100%;
             }
         }
         .owl-prev {
@@ -530,7 +532,7 @@ button {
         display: inline-block;
         font-weight: 600;
         font-size: 18px;
-        background: $gradient-green;
+        background: white;
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -577,7 +579,7 @@ button {
         background-repeat: no-repeat;
         width: 100%;
         height: 100%;
-        
+
         img {
             display: none;
         }
@@ -691,7 +693,7 @@ button {
 /*-- Counter --*/
 .one-counter-area {
     background-color: $black-color;
-    
+
     .counter-item {
         position: relative;
         margin-bottom: 30px;
@@ -886,7 +888,7 @@ button {
 
             li {
                 list-style-type: none;
-                display: inline-block;    
+                display: inline-block;
                 flex: 0 0 50%;
                 max-width: 50%;
                 position: relative;
@@ -1282,7 +1284,7 @@ button {
                 display: inline-block;
                 border: none;
                 box-shadow: unset !important;
-    
+
                 &:before {
                     position: absolute;
                     content: '';
@@ -1419,7 +1421,7 @@ button {
                     text-align: center;
                     box-shadow: 0px 0px 20px 0px #ddd;
                     border-radius: 50%;
-                    
+
                     &:hover {
                         transform: rotateY(360deg);
                     }
@@ -1468,10 +1470,10 @@ button {
     .faq-content {
         max-width: 650px;
 
-        .accordion { 
+        .accordion {
             padding-left: 0;
             margin-bottom: 0;
-        
+
             a {
                 width: 100%;
                 font-weight: 600;
@@ -1480,7 +1482,7 @@ button {
                 font-size: 20px;
                 color: #1a1b1e;
                 padding: 20px 35px 20px;
-        
+
                 &:after {
                     position: absolute;
                     content: '+';
@@ -1517,7 +1519,7 @@ button {
                 margin-bottom: 15px;
                 background-color: #f5f5f5;
                 border: 1px solid #d9d9d9;
-        
+
                 &:last-child {
                     margin-bottom: 0;
                 }
@@ -1540,7 +1542,7 @@ button {
         border-radius: 4px;
         margin-bottom: 30px;
         transition: $transition;
-    
+
         &:hover, &.active {
             background-color: $black-color;
             transform: translate(0, -10px);
@@ -1781,7 +1783,7 @@ button {
             }
             &:hover {
                 color: $black-color;
-                
+
                 &:before {
                     width: 0;
                 }
@@ -1977,7 +1979,7 @@ button {
             max-width: 550px;
             margin: 0 auto;
             position: relative;
-    
+
             .form-control {
                 height: 55px;
                 border: 0;
@@ -1985,7 +1987,7 @@ button {
                 padding-left: 25px;
                 font-size: 14px;
                 border-radius: 4px;
-    
+
                 &:focus {
                     box-shadow: none;
                     border: 0;
@@ -2012,7 +2014,7 @@ button {
                 top: 0;
                 right: 0;
                 border: 0;
-    
+
                 &:before {
                     position: absolute;
                     content: '';
@@ -3023,7 +3025,7 @@ button {
                         margin: 0;
                         padding: 0;
                         box-shadow: none;
-                        
+
                         li {
                             flex: 0 0 100%;
                             max-width: 100%;
@@ -3115,7 +3117,7 @@ button {
     .subscribe-wrap {
         background-image: unset;
         padding: 0;
-        
+
         &:before {
             display: none;
         }
@@ -3135,7 +3137,7 @@ button {
 /*-- Header Top --*/
 .two-header-top {
     background-color: $black-color;
-    
+
     .header-partner {
         p {
             color: #b8bcbf;
@@ -3214,7 +3216,7 @@ button {
             font-weight: 500;
             font-size: 25px;
             color: $black-color;
-            margin-bottom: 20px;
+            margin-bottom: 50px;
 
             img {
                 max-width: 50px;
@@ -3346,7 +3348,7 @@ button {
 .three-about-area {
     padding-top: 150px;
     position: relative;
-    
+
     .about-shape {
         position: absolute;
         top: 0;
@@ -3356,7 +3358,7 @@ button {
     .about-img {
         position: relative;
         margin-bottom: 30px;
-        
+
         img {
             &:nth-child(2) {
                 position: absolute;
@@ -3432,7 +3434,7 @@ button {
                     .nav-default {
                         position: relative;
                         z-index: 1;
-                        
+
                         &:before {
                             position: absolute;
                             content: '';
@@ -3447,7 +3449,7 @@ button {
                         }
                         &.active {
                             color: $white-color;
-                            
+
                             &:before {
                                 opacity: 1;
                             }
@@ -3506,7 +3508,7 @@ button {
     .sub-title {
         margin-bottom: 7px;
         padding-bottom: 7px;
-    
+
         &:before {
             left: 0;
             right: unset;
@@ -3597,7 +3599,7 @@ button {
         margin-bottom: 85px;
         max-width: 320px;
         background-color: $white-color;
-        
+
         &:nth-child(2) {
             margin-left: 25px;
         }
@@ -3990,7 +3992,7 @@ button {
                 }
             }
         }
-        
+
         span {
             display: inline-block;
             font-size: 14px;
@@ -4126,7 +4128,7 @@ button {
             &:before {
                 border-radius: 30px;
             }
-            &:hover {  
+            &:hover {
                 color: $white-color;
             }
         }
@@ -4224,7 +4226,7 @@ button {
         background-repeat: no-repeat;
         position: relative;
         padding: 50px 60px 55px 115px;
-    
+
         &:before {
             position: absolute;
             content: '';
@@ -4318,7 +4320,7 @@ button {
 
 /*-- Navbar --*/
 .navbar-light-four {
-    background: $gradient-green;
+    background: white;
     position: relative;
     z-index: 1;
 
@@ -4328,7 +4330,6 @@ button {
     }
     &:before {
         position: absolute;
-        background-image: url(assets/img/home-four/navbar-shape.png);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
@@ -4454,7 +4455,7 @@ button {
         .three-section-title {
             text-align: left;
             margin-bottom: 25px;
-    
+
             h2 {
                 font-size: 35px;
             }
@@ -4829,7 +4830,7 @@ button {
 /*-- Record --*/
 .four-record-area {
     position: relative;
-    
+
     .record-shape {
         img {
             position: absolute;
@@ -4927,22 +4928,15 @@ button {
     .step-item {
         background-color: $white-color;
         position: relative;
-        padding: 55px 15px 25px 25px;
-        border-radius: 4px;
-        margin-top: 40px;
+        padding: 55px;
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
 
-        &:before {
-            position: absolute;
-            content: "";
-            height: 20px;
-            width: 20px;
-            left: -57px;
-            top: 50%;
-            border: 25px solid transparent;
-            border-right: 35px solid $white-color;
-            transform: translateY(-50%);
-            transition: 0.5s all ease;
-        }
         .step-span {
             width: 70px;
             height: 70px;
@@ -5157,7 +5151,7 @@ button {
                     padding: 20px 20px 20px;
                     font-size: 19px;
                     color: #12ca59;
-    
+
                     &:after {
                         right: 10px;
                     }
@@ -5382,7 +5376,7 @@ button {
                         }
                         &.active {
                             color: $white-color;
-                            
+
                             &:before {
                                 opacity: 1;
                             }
@@ -5811,6 +5805,7 @@ button {
     .step-item {
         box-shadow: 0px 0px 45px 0px #dddddd96;
         margin-bottom: 30px;
+        border-radius: 50%;
     }
 }
 /*-- End Step --*/
@@ -5819,7 +5814,7 @@ button {
 .five-team-area {
     background-color: #f2fcf3;
     position: relative;
-    
+
     .team-shape {
         position: absolute;
         top: 0;
@@ -5935,7 +5930,7 @@ button {
                     .lover-inner-img {
                         position: absolute;
                         bottom: -80px;
-                        right: 0;                    
+                        right: 0;
 
                         img {
                             border-radius: 50%;
@@ -5985,7 +5980,7 @@ button {
 /*-- Subscribe --*/
 .five-subscribe-area {
     background-color: #15d1a5;
-    
+
     .subscribe-wrap {
         padding-top: 50px;
         padding-bottom: 60px;
@@ -6141,7 +6136,7 @@ button {
         max-width: 500px;
 
         h1 {
-            font-size: 100px;
+            font-size: 70px;
             font-weight: 700;
 
             span {
@@ -6409,7 +6404,7 @@ button {
             position: absolute;
             top: 5%;
             left: 5%;
-    
+
             i {
                 display: inline-block;
                 color: #262424;
@@ -6575,14 +6570,14 @@ button {
             margin-left: auto;
             margin-right: auto;
             position: relative;
-        
+
         }
     }
     .nearly-content {
         background-color: $white-color;
         border-radius: 4px;
         box-shadow: 0px 0px 20px 0px #dddddd96;
-        
+
         .nav-tabs {
             border-bottom: 1px solid #f3f3f3;
             padding-top: 16px;
@@ -6973,13 +6968,13 @@ button {
     animation: sk-rotateplane 1.2s infinite ease-in-out;
 }
 @keyframes sk-rotateplane {
-    0% { 
+    0% {
         transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-    } 
-    50% { 
+    }
+    50% {
         transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-    } 
-    100% { 
+    }
+    100% {
         transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
     }
 }

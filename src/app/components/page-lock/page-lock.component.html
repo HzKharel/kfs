@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-light navbar-light-four sticky-top">
+    <a class="navbar-brand" routerLink="/home-five"><img src="assets/img/kfs.png" width="300" alt="Kandel Financial Services"></a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+</nav>
+
+<div class="five-banner-area">
+    <div class="d-table">
+        <div class="d-table-cell">
+            <div class="container-fluid">
+                <div class="banner-content">
+                    <p>This Page is locked, please enter the access pin to continue</p>
+                    <mat-form-field class="example-full-width" appearance="outline">
+                        <mat-label>Pin</mat-label>
+                        <input matInput [(ngModel)]="pin" >
+                    </mat-form-field>
+                    <br>
+                    <button mat-raised-button color="primary" (click)="onPinEnter()">Log in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
