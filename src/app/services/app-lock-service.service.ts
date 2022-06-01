@@ -6,7 +6,7 @@ import {Router} from '@angular/router';
 })
 export class AppLockServiceService {
 
-    pageLocked = true;
+    pageLocked = false;
 
     constructor(private router: Router) {
     }
