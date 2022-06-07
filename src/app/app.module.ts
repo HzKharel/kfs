@@ -17,6 +17,7 @@ import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import {FormsModule} from '@angular/forms';
+import {CalculatorComponent} from './components/calculator/calculator.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import {FormsModule} from '@angular/forms';
     HomeFiveComponent,
     HomeSixComponent,
     MortgageInfoDialogComponent,
-    PageLockComponent
+    PageLockComponent,
+    CalculatorComponent
   ],
     imports: [
         BrowserModule,

@@ -1,0 +1,38 @@
+<div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+        <form>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Purchase price" [(ngModel)]="details.price"  [ngModelOptions]="{standalone: true}">
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Interest Rate" [(ngModel)]="details.interestRate" [ngModelOptions]="{standalone: true}" >
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Down payment" [(ngModel)]="details.downPayment" [ngModelOptions]="{standalone: true}" >
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Mortgage Term" [(ngModel)]="details.term" [ngModelOptions]="{standalone: true}">
+                    </div>
+                </div>
+
+                <div>
+                    <button type="submit" class="btn banner-form-btn" (click)="calculateMortgage()">Calculate</button>
+                </div>
+                <div style="margin-top: 25px">
+                    <span *ngIf="repayment">Estimated Monthly Repayment: £{{repayment}}</span>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
